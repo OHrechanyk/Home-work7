@@ -740,24 +740,24 @@ textarea {
 }
 
 /* Footer */
-.bg-footer {
+.section-footer {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.footer-logo {
+.footer__logo {
   padding: 0;
   margin-bottom: 20px;
   margin-right: 0;
 }
 
-.web-footer {
+.footer__logo--web {
   color: #2196f3;
 }
-.studio-footer {
+.footer__logo--studio {
   color: var(--backgruond-color);
 }
-.pd-footer {
+.footer__list--contact {
   margin-bottom: 9px;
 }
 
@@ -768,7 +768,7 @@ textarea {
   color: var(--backgruond-color);
   margin-top: 20px;
 }
-.mail-tel {
+.contact__footer {
   display: block;
   margin: 0;
   line-height: 1.7;
@@ -777,15 +777,15 @@ textarea {
   color: var(--footer-address-color);
 }
 
-.mail-tel:hover,
-.mail-tel:focus {
+.contact__footer:hover,
+.contact__footer:focus {
   color: var(--accent-color);
   transition-duration: 250ms;
   transition-timing-function: linear;
   transition-delay: 0;
 }
 /* social-link-footer */
-.bg-footer .container {
+.section-footer .container {
   display: flex;
   align-items: baseline;
 }
